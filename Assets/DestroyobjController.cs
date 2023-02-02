@@ -9,12 +9,6 @@ public class DestroyobjController : MonoBehaviour
     //Unityちゃんとデストロイの距離
     private float difference;
 
-    //car
-    public GameObject carPrefab;
-    //coin
-    public GameObject coinPrefab;
-    //corn
-    public GameObject conePrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +22,7 @@ public class DestroyobjController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Unityちゃんの位置に合わせてカメラの位置を移動
+        //Unityちゃんの位置に合わせてDestroyobjを移動
         this.transform.position = new Vector3(0, this.transform.position.y, this.unitychan.transform.position.z - difference);
     }
 

@@ -44,7 +44,7 @@ public class ItemGenerator : MonoBehaviour
                     int item = Random.Range(1, 11);
                     //アイテムを置くZ座標のオフセットをランダムに設定
                     int offsetZ = Random.Range(-5, 6);
-                    //60%コイン配置:30%車は位置:10%何もなし
+                    //60%コイン配置:30%車配置:10%何もなし
                     if(1<=item && item <= 6)
                     {
                         //コインを生成
