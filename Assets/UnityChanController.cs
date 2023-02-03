@@ -36,9 +36,13 @@ public class UnityChanController : MonoBehaviour
     //ジャンプボタン押下の判定
     private bool isJButtonDown = false;
 
+    //アイテムジェネレーターからの取得のテストテキスト
+    public string test = "testdesu";
+
     // Start is called before the first frame update
     void Start()
     {
+
         //Animatorコンポーネント取得
         this.myAnimator = GetComponent<Animator>();
 

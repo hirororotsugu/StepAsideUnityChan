@@ -15,7 +15,7 @@ public class DestroyobjController : MonoBehaviour
     {
         //Unityちゃんのオブジェクト取得
         this.unitychan = GameObject.Find("unitychan");
-        //Unityちゃんとカメラの位置(z座標)の差を求める
+        //UnityちゃんとDestroyobj(z座標)の差を求める
         this.difference = unitychan.transform.position.z - this.transform.position.z;
     }
 
@@ -31,7 +31,6 @@ public class DestroyobjController : MonoBehaviour
         //もしDestroyobjとアイテムが衝突したら破壊
         if(other.gameObject.tag == "CarTag" || other.gameObject.tag == "TrafficConeTag" || other.gameObject.tag == "CoinTag")
         {
-            Debug.Log("destroy");
             //破壊
             Destroy(other.gameObject);
         }

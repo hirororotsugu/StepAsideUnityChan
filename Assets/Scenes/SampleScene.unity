@@ -836,6 +836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73f1bfbe6cca64646a20e5776f8a5384, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  test: testdesu
 --- !u!136 &861591302
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6531,9 +6532,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b92b0dc5bb4345e4785b654d2a85be96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carPrefab: {fileID: 7750082069640899016, guid: 162a98030a970e34999a9c2d75fddf2d, type: 3}
-  coinPrefab: {fileID: 5788262099705853901, guid: 03b9d0c7ceb13f445a480f864a554824, type: 3}
-  conePrefab: {fileID: 3116297302800261932, guid: 6e30c8ab5a316f8449b70e7176e02e61, type: 3}
 --- !u!65 &1826856787
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6577,6 +6575,63 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!1001 &1864021620
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3112822553126179826, guid: 6e30c8ab5a316f8449b70e7176e02e61, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112822553126179826, guid: 6e30c8ab5a316f8449b70e7176e02e61, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112822553126179826, guid: 6e30c8ab5a316f8449b70e7176e02e61, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112822553126179826, guid: 6e30c8ab5a316f8449b70e7176e02e61, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112822553126179826, guid: 6e30c8ab5a316f8449b70e7176e02e61, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112822553126179826, guid: 6e30c8ab5a316f8449b70e7176e02e61, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112822553126179826, guid: 6e30c8ab5a316f8449b70e7176e02e61, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112822553126179826, guid: 6e30c8ab5a316f8449b70e7176e02e61, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112822553126179826, guid: 6e30c8ab5a316f8449b70e7176e02e61, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112822553126179826, guid: 6e30c8ab5a316f8449b70e7176e02e61, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112822553126179826, guid: 6e30c8ab5a316f8449b70e7176e02e61, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3116297302800261932, guid: 6e30c8ab5a316f8449b70e7176e02e61, type: 3}
+      propertyPath: m_Name
+      value: TrafficConePrefab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6e30c8ab5a316f8449b70e7176e02e61, type: 3}
 --- !u!1 &1925274517
 GameObject:
   m_ObjectHideFlags: 0
@@ -6609,6 +6664,7 @@ MonoBehaviour:
   carPrefab: {fileID: 7750082069640899016, guid: 162a98030a970e34999a9c2d75fddf2d, type: 3}
   coinPrefab: {fileID: 5788262099705853901, guid: 03b9d0c7ceb13f445a480f864a554824, type: 3}
   conePrefab: {fileID: 3116297302800261932, guid: 6e30c8ab5a316f8449b70e7176e02e61, type: 3}
+  lastObject: {fileID: 0}
 --- !u!4 &1925274519
 Transform:
   m_ObjectHideFlags: 0
