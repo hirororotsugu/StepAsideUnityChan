@@ -9,7 +9,6 @@ public class DestroyobjController : MonoBehaviour
     //Unityちゃんとデストロイの距離
     private float difference;
 
-
     // Start is called before the first frame update
     void Start()
     {

@@ -12,20 +12,17 @@ public class ItemGenerator : MonoBehaviour
     public GameObject coinPrefab;
     //corn
     public GameObject conePrefab;
-    //スタート地点
+    //スタート地点(未使用)
     private int startPos = 80;
-    //ゴール地点
+    //ゴール地点（未使用）
     private int goalPos = 360;
     //アイテムを出すx方向の範囲
     private float posRange = 3.4f;
 
-
     //最後に作ったオブジェクト
     public GameObject lastObject;
-
     //UnityちゃんとlastObjectの距離
     private float difference;
-
     //Unityちゃんのオブジェクト
     private GameObject unitychan;
 
@@ -33,10 +30,8 @@ public class ItemGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         //Unityちゃんのオブジェクト取得
         this.unitychan = GameObject.Find("unitychan");
-
 
         //どのアイテムかランダムに
         int num = Random.Range(1, 11);
